@@ -2,11 +2,15 @@
 # Name/Surname:
 # Netacad username:
 # Academy name:
+# Github repository URL: 
 #######################################################################################
 # Instruction
-# 1. Complete all 12 tasks by adding code to all <!!!REPLACEME!!!!> in this file.
-# 1. Append yourname to this file name (e.g. devasc-sa-dec2021-chotipat.py)
-# 2. Send (attach) this file to chotipat@it.kmitl.ac.th by 17:00.
+# 1. Complete all 12 tasks below by adding code to all <!!!REPLACEME!!!!> in this file within 1:30 hour
+# 2. Append your name to this file name (e.g. devasc-sa-dec2021-chotipat.py)
+# 3. Create a private repository in github named "DevnetFinalDec2021" and add chotipat@it.kmitl.ac.th as a collaborator.
+# 4. Commit this file to your local repository once in a while (e.g. every 15-30 mins).
+# 5. Push your local repository to your github repository when finished.
+# 6. As a backup route, please (attach) this file and send email to chotipat@it.kmitl.ac.th by 17:00.
 #######################################################################################
 # This program:
 # - Uses the hard-coded access token.
