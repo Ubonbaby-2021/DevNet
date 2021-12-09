@@ -11,7 +11,7 @@
 # 4. If necessary, create a private repository in github.com, named "ITCDevnetFinal2021". 
 # 5. Add chotipat@it.kmitl.ac.th as a collaborator in your github repository.
 # 6. If necessary, clone or create local respository in your computer.
-# 7. Commit this file to your local repository once in a while (e.g. every 15-20 mins).
+# 7. Commit this file to your local repository once in a while (e.g. every 15-20 mins) or whenever you completed some of the 12 tasks.
 # 8. Push your local repository to your github repository when finished.
 # 9. As a backup route, please (attach) this file and send email to chotipat@it.kmitl.ac.th by 17:00.
 #######################################################################################
