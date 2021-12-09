@@ -7,7 +7,7 @@
 # Instruction
 # 1. Complete all 12 tasks below by adding code to all <!!!REPLACEME!!!!> in this file within 1:30 hour
 # 2. Append your name to this file name (e.g. devasc-sa-dec2021-chotipat.py)
-# 3. Clone or fork repository from https://github.com/chotipat/ITCDevNetFinal2021.git to your local computer
+# 3. Clone or fork repository from https://github.com/chotipat/ITCDevNetFinal2021.git to your local computer or your github repository.
 # 4. If necessary, create a private repository in github.com, named "ITCDevnetFinal2021". 
 # 5. Add chotipat@it.kmitl.ac.th as a collaborator in your github repository.
 # 6. If necessary, clone or create local respository in your computer.
