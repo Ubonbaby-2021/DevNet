@@ -5,15 +5,14 @@
 # Github repository URL: 
 #######################################################################################
 # Instruction
-# 1. Complete all 12 tasks below by adding code to all <!!!REPLACEME!!!!> in this file within 1:30 hour
+# 1. Complete all 12 tasks below by replacing code to all <!!!REPLACEME!!!!> in this file within 1:30 hour
 # 2. Append your name to this file name (e.g. devasc-sa-dec2021-chotipat.py)
-# 3. Clone or fork repository from https://github.com/chotipat/ITCDevNetFinal2021.git to your local computer or your github repository.
-# 4. If necessary, create a private repository in github.com, named "ITCDevnetFinal2021". 
-# 5. Add chotipat@it.kmitl.ac.th as a collaborator in your github repository.
-# 6. If necessary, clone or create local respository in your computer.
-# 7. Commit this file to your local repository once in a while (e.g. every 15-20 mins) or whenever you completed some of the 12 tasks.
-# 8. Push your local repository to your github repository when finished.
-# 9. As a backup route, please (attach) this file and send email to chotipat@it.kmitl.ac.th by 17:00.
+# 3. Fork a repository from https://github.com/chotipat/ITCDevNetFinal2021.git to your github repository.
+# 4. Add chotipat@it.kmitl.ac.th as a collaborator in your github repository.
+# 5. Clone your github repository to your local computer repository.
+# 6. Commit this file to your local repository once in a while (e.g. every 15-20 mins) or whenever you completed some of the 12 tasks.
+# 7. Push your local repository to your github repository.
+# 8. As a backup, please (attach) this file and send email to chotipat@it.kmitl.ac.th within 10 minutes after exam.
 #######################################################################################
 # This program:
 # - Uses the hard-coded access token.
@@ -23,7 +22,7 @@
 # - Discovers the current weather description and temperature in degree Celsius of the specified latitude and longitude using openweathermap API. 
 # - Format and send the results back to the ITCProctoredFinal2021 Webex Teams room
 #
-# The student will:
+# The examinee will:
 # 1. Import libraries for API requests, JSON formatting, and time.
 # 2. Assign the Webex hard-coded access token to the variable accessToken.
 # 3. Prepare parameters get the latest message for messages API.
@@ -124,11 +123,9 @@ while True:
         # Set the lat and lng key as retuned by the MapQuest API in variables
         locationLat = json_data["<!!!REPLACEME!!!> with path to latitude key!!!>"]
         locationLng = json_data["<!!!REPLACEME!!!> with path to longitude key!!!>"]
-        # print the location address
-        # print("Location GPS coordinates: " + str(locationLat) + ", " + str(locationLng))
 
 # 8. Prepare openweatherAPIGetParameters for OpenWeather API; current weather data for one location by geographic coordinates.
-        # Current weather data for one location by geographic coordinates API service in Openweathermap
+        # Use current weather data for one location by geographic coordinates API service in Openweathermap
         openweatherAPIGetParameters = {
                                 "<!!!REPLACEME!!!> with all key:value pairs of parameters!!!>"
                             }
