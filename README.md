@@ -1,8 +1,8 @@
 # ITCDevNetFinal2021
-Name/Surname:
-Netacad username:
-Academy name:
-Github repository URL: 
+- Name/Surname:
+- Netacad username:
+- Academy name:
+- Github repository URL: 
 
 ## Instruction
 1. Complete all 12 tasks below by replacing code to all <!!!REPLACEME!!!!> in this file within 1:30 hour
