@@ -1,8 +1,8 @@
 # ITCDevNetFinal2021
-##Name/Surname:
-##Netacad username:
-##Academy name:
-#Github repository URL: 
+Name/Surname:
+Netacad username:
+Academy name:
+Github repository URL: 
 
 ## Instruction
 1. Complete all 12 tasks below by replacing code to all <!!!REPLACEME!!!!> in this file within 1:30 hour
@@ -14,7 +14,7 @@
 7. Push your local repository to your github repository when finished.
 8. As a backup route, please (attach) this file and send email to chotipat@it.kmitl.ac.th by 17:00.
 
-##This program:
+## This program:
 - Uses the hard-coded access token.
 - Monitors the ITCProctoredFinal2021 Webex Team room every second for "/yourname location" message.
 - Extract the location (city name) from a message starting with “/yourname location” (e.g. /chotipat Washington, DC -> Washington, DC).
@@ -22,7 +22,7 @@
 - Discovers the current weather description and temperature in degree Celsius of the specified latitude and longitude using openweathermap API. 
 - Format and send the results back to the ITCProctoredFinal2021 Webex Teams room
 
-##The examinee will:
+## The examinee will:
 1. Import libraries for API requests, JSON formatting, and time.
 2. Assign the Webex hard-coded access token to the variable accessToken.
 3. Prepare parameters get the latest message for messages API.
