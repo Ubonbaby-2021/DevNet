@@ -12,7 +12,7 @@
 5. Complete all 12 tasks below by replacing code to all <!!!REPLACEME!!!!> in "devasc-sa-dec2021-yourname.py" within 1:30 hour.
 6. Commit "devasc-sa-dec2021-yourname.py" to your local repository once in a while (e.g. every 15-20 mins) or whenever you completed some of the 12 tasks.
 7. Push your local repository to your github repository.
-8. As a backup route, please (attach) devasc-sa-dec2021-yourname.py and send email to chotipat@it.kmitl.ac.th within 10 minutes after exam.
+8. As a backup route, please attach devasc-sa-dec2021-yourname.py and send email to chotipat@it.kmitl.ac.th within 10 minutes after exam.
 
 ## This program:
 - Uses the hard-coded access token.
