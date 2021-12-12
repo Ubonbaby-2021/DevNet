@@ -134,7 +134,7 @@ while True:
 
 # 10. Complete the code to get weather description and weather temperature
         weather_desc = json_data_weather["<!!!REPLACEME!!!> with path to weather description key!!!>"]
-        weather_temp = json_data_weather["<!!!REPLACEME!!!> with path to weather temperature key!!!>]
+        weather_temp = json_data_weather["<!!!REPLACEME!!!> with path to weather temperature key!!!>"]
 
 # 11. Complete the code to format the response message.
         # Example responseMessage result: In Austin, Texas (latitude: 30.264979, longitute: -97.746598), the current weather is clear sky and the temperature is 12.61 degree celsius.
