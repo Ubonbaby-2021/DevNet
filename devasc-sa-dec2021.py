@@ -18,7 +18,7 @@
 # The examinee will:
 # 1. Import libraries for API requests, JSON formatting, and time.
 # 2. Assign the Webex hard-coded access token to the variable accessToken.
-# 3. Prepare parameters get the latest message for messages API.
+# 3. Prepare GetParameters to get the latest message for messages API.
 # 4. Provide the URL to the Webex Teams messages API, and extract location from the received message.
 # 5. Provide your MapQuest API consumer key.
 # 6. Provide the URL to the MapQuest address API.
@@ -43,7 +43,7 @@
 accessToken = "Bearer <!!!REPLACEME with hard-coded token!!!>" 
 
 #######################################################################################
-# 3. Prepare parameters get the latest message for messages API.
+# 3. Prepare GetParameters to get the latest message for messages API.
 
 # Defines a variable that will hold the roomId 
 roomIdToGetMessages = "<!!!REPLACEME with roomID of the ITCProctoredFinal2021 Webex Teams room!!!>" 
