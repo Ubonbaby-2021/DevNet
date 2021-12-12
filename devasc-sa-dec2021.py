@@ -13,7 +13,7 @@
 # - Extract the location (city name) from a message starting with “/yourname location” (e.g. /chotipat Washington, DC -> Washington, DC).
 # - Discovers GPS coordinates (latitude and longitude) for the "location" using MapQuest API.
 # - Discovers the current weather description and temperature in degree Celsius of the specified latitude and longitude using openweathermap API. 
-# - Format and send the results back to the ITCProctoredFinal2021 Webex Teams room
+# - Formats and sends the results back to the ITCProctoredFinal2021 Webex Teams room
 #
 # The examinee will:
 # 1. Import libraries for API requests, JSON formatting, and time.
