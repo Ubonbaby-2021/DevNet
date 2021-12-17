@@ -26,7 +26,7 @@ accessToken = "Bearer <45266e3d-1e3d-4537-a2d1-9383a06cd3d7>"
 # 3. Prepare GetParameters to get the latest message for messages API.
 
 # Defines a variable that will hold the roomId 
-roomIdToGetMessages = "<!!!REPLACEME with roomID of the ITCProctoredFinal2021 Webex Teams room!!!>" 
+roomIdToGetMessages = "<ITCProctoredFinal2021>" 
 
 while True:
     # always add 1 second of delay to the loop to not go over a rate limit of API calls
@@ -78,7 +78,7 @@ while True:
         # - "key" is the Consumer Key you generated at https://developer.mapquest.com/user/me/apps
         mapsAPIGetParameters = { 
                                 "location": location, 
-                                "key": "<3EHMJ6HEK5K2O3FR3JU0HPDTII1L9SDY9FPL3OVPRF866KB633EPRCXUK3A5CVXF869B0A7MGR85VPMJ4R3PENI4E6KQIQNWMEDPGTBUWBSXP7SJT2P411C3VO59WV5FYCNYSM1IEOJKI0B89QYNQX3Q6OGGAAO24WD08665135DZQ5Z1EGH2VBE152IPM0D017VOZQDKO47MC8ULSSHO1CTAPH31EPDFJWMLLHEPV41629UJ27NSYJGVTTK3JFO21JAI2O4JB50AIUZMA5M9LI5NARFQ9PU51P8CHY65RG8A9P1LCATMFURZOX5K4WYUK8JEXSIOG7DBCAYJ1SCN5>" 
+                                "key": "<MgNLC7z8ilMJgbcAT23lmigGtDpBLqhx>" 
                                }
         
 # 6. Provide the URL to the MapQuest address API.
