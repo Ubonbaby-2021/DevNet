@@ -77,7 +77,7 @@ while True:
         # - "key" is the Consumer Key you generated at https://developer.mapquest.com/user/me/apps
         mapsAPIGetParameters = { 
                                 "location": location, 
-                                "key": "<!!!REPLACEME with your MapQuest API Key!!!>" 
+                                "key": "<3EHMJ6HEK5K2O3FR3JU0HPDTII1L9SDY9FPL3OVPRF866KB633EPRCXUK3A5CVXF869B0A7MGR85VPMJ4R3PENI4E6KQIQNWMEDPGTBUWBSXP7SJT2P411C3VO59WV5FYCNYSM1IEOJKI0B89QYNQX3Q6OGGAAO24WD08665135DZQ5Z1EGH2VBE152IPM0D017VOZQDKO47MC8ULSSHO1CTAPH31EPDFJWMLLHEPV41629UJ27NSYJGVTTK3JFO21JAI2O4JB50AIUZMA5M9LI5NARFQ9PU51P8CHY65RG8A9P1LCATMFURZOX5K4WYUK8JEXSIOG7DBCAYJ1SCN5>" 
                                }
         
 # 6. Provide the URL to the MapQuest address API.
