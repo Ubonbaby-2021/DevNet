@@ -66,11 +66,11 @@ while True:
     
     # check if the text of the message starts with the magic character "/" and yourname followed by a location name
     # e.g.  "/chotipat San Jose"
-    if message.find("<!!!REPLACEME!!!>") == 0:
+    if message.find("kitikon") == 0:
         # extract name of a location (city) where we check for GPS coordinates using the MapQuest API
         # Enter code below to hold city name in location variable.
         # For example location should be "San Jose" if the message is "/chotipat San Jose".
-        location = "<!!!REPLACEME!!!>" 
+        location = "<kitikon>" 
      
 # 5. Provide your MapQuest API consumer key.
         # MapQuest API GET parameters:
