@@ -17,7 +17,7 @@
 # 2. Assign the Webex hard-coded access token to the variable accessToken.
 
 
-accessToken = "Bearer <!!!REPLACEME with hard-coded token!!!>" 
+accessToken = "Bearer <45266e3d-1e3d-4537-a2d1-9383a06cd3d7>" 
 
 #######################################################################################
 # 3. Prepare GetParameters to get the latest message for messages API.
@@ -91,7 +91,8 @@ while True:
 
 # 7. Provide the MapQuest key values for latitude and longitude.
         # Set the lat and lng key as retuned by the MapQuest API in variables
-        locationLat = json_data["<!!!REPLACEME!!!> with path to latitude key!!!>"]
+        locationLat = json_data["<{"DD":{"lat":34.05223,"lng":-118.24368},"DMS":{"lat":"34º03'8.03\" N","lng":"118º14'37.25\" W"},"geohash":"9q5ctr18de","UTM":"11S 385215.79945571 3768644.79378488"}> with path to latitude key!!!>"]
+  
         locationLng = json_data["<!!!REPLACEME!!!> with path to longitude key!!!>"]
 
 # 8. Prepare openweatherAPIGetParameters for OpenWeather API; current weather data for one location by geographic coordinates.
@@ -110,7 +111,7 @@ while True:
             raise Exception("Incorrect reply from openweathermap API. Status code: {}. Text: {}".format(rw.status_code, rw.text))
 
 # 10. Complete the code to get weather description and weather temperature
-        weather_desc = json_data_weather["<!!!REPLACEME!!!> with path to weather description key!!!>"]
+        weather_desc = json_data_weather["Thailand"]
         weather_temp = json_data_weather["<!!!REPLACEME!!!> with path to weather temperature key!!!>"]
 
 # 11. Complete the code to format the response message.
@@ -122,7 +123,7 @@ while True:
 # 12. Complete the code to post the message to the Webex Teams room.         
         # the Webex Teams HTTP headers, including the Authoriztion and Content-Type
         HTTPHeaders = { 
-                             "Authorization": <!!!REPLACEME!!!>,
+                             "Authorization": <3EHMJ6HEK5K2O3FR3JU0HPDTII1L9SDY9FPL3OVPRF866KB633EPRCXUK3A5CVXF869B0A7MGR85VPMJ4R3PENI4E6KQIQNWMEDPGTBUWBSXP7SJT2P411C3VO59WV5FYCNYSM1IEOJKI0B89QYNQX3Q6OGGAAO24WD08665135DZQ5Z1EGH2VBE152IPM0D017VOZQDKO47MC8ULSSHO1CTAPH31EPDFJWMLLHEPV41629UJ27NSYJGVTTK3JFO21JAI2O4JB50AIUZMA5M9LI5NARFQ9PU51P8CHY65RG8A9P1LCATMFURZOX5K4WYUK8JEXSIOG7DBCAYJ1SCN5>,
                              "Content-Type": "application/json"
                            }
         # The Webex Teams POST JSON data
