@@ -1,8 +1,8 @@
 #######################################################################################
-# FirstName/Surname:
-# Netacad username:
-# Academy name:
-# Github repository URL: 
+# FirstName/Surname: Kitikon  Tharatum
+# Netacad username:kitikon.th@ubru.ac.th
+# Academy name:UBON RATCHATHANI RAJABHAT UNIVERSITY
+# Github repository URL: https://github.com/Ubonbaby-2021/DevNet.git
 #######################################################################################
 # Instruction
 # Reads README.md in https://github.com/chotipat/ITCDevNetFinal2021 for more information.
